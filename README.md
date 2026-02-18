@@ -62,3 +62,17 @@ JSON Response / Graph Output
 ## 📂 Project Structure
 
 
+
+## Slack Integration Module
+
+The system now supports Slack ingestion via:
+
+1. Slack workspace export (JSON)
+2. Live Slack API (Bot token required)
+
+This enables extracting SQL queries from collaborative discussions to automatically derive lineage intelligence.
+
+Architecture Extension:
+
+Slack → Ingestion Service → SQL Extractor → Lineage Graph → AI Metadata Enrichment
+

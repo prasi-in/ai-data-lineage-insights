@@ -1,13 +1,7 @@
-
----
-
-# requirements.txt
-
-```txt
 fastapi
 uvicorn
 sqlparse
 networkx
 openai
 python-dotenv
-
+slack_sdk
